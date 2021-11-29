@@ -4,5 +4,5 @@ console.log("test thử dc ko");
 console.log("test thử dc ko");
 console.log("test thử dc ko");
 console.log("test thử dc ko");
-var m3=0;
+var m3=1;
 var m2;
