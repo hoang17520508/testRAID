@@ -1,0 +1,78 @@
+.btn-refector {    
+    background: transparent;
+    float: right;
+    border: 0;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.btn-refactor-left {
+    color: #cb2431;
+    -webkit-box-shadow: inset 0px 0px 0px 1px #cb2431;
+    -moz-box-shadow: inset 0px 0px 0px 1px #cb2431;
+    box-shadow: inset 0px 0px 0px 1px #cb2431;
+}
+
+.btn-refactor-right {
+    color: #28a745;
+    -webkit-box-shadow: inset 0px 0px 0px 1px #28a745;
+    -moz-box-shadow: inset 0px 0px 0px 1px #28a745;
+    box-shadow: inset 0px 0px 0px 1px #28a745;
+}
+
+.btn-refactor-left:hover,
+.btn-refactor-left:focus,
+.btn-refactor-left:active {
+    background: #d06b73;
+}
+
+.btn-refactor-right:hover,
+.btn-refactor-right:focus,
+.btn-refactor-right:active {
+    background: #85c794;
+}
+
+.diff-refector-popup {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    z-index: 7;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.diff-refector-popup-close {
+    float: right;
+}
+
+.refactor-diff-extraction {
+    padding: 5px;
+    margin-bottom: 5px;
+    max-height: 500px;
+    overflow: scroll;
+}
+
+.d2h-moved.d2h-moved-tag {
+    display: none;
+}
+
+.d2h-extracted-tag {
+    border: 1px solid #3572b0;
+}
+
+.diff-refector-action {
+    float: right;
+    margin-left: 5px;
+}
